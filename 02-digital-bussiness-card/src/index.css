@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    font-family: Inter, sans-serif;
+    justify-content: center;
+}
+
+.app {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+.info {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 10px 10px 0 0;
+    width: 320px;
+}
+
+.name,
+.profession,
+.website {
+    margin: 0;
+}
+
+.name {
+    font-size: 1.626rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.profession {
+    color: #F47D27;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.9375rem;
+}
+
+.website {
+    color: #4A4E74;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 10px 0 20px 0;
+}
+
+.email-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    color: #374151;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    height: 34px;
+    line-height: 0.9375rem;
+    width: 247px;
+}
+
+.email-btn i {
+    margin-right: 10px;
+}
+
+.about {
+    padding: 25px 40px 10px 40px;
+}
+
+.head-text {
+    color: #2B283A;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 0.9375rem;
+    margin: 0;
+}
+
+.description-text {
+    color: #4A4E74;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 0.9375rem;
+    margin: 5px 0 0 0;
+}
+
+.interests {
+    padding: 0 40px 0 40px;
+}
+
+.footer {
+    align-items: center;
+    background-color: #D5D4D8;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    font-size: 1.625rem;
+    height: 64px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.footer i {
+    cursor: pointer;
+    color: #918E9B;
+}
